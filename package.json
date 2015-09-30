@@ -1,5 +1,5 @@
 {
-  "name": "my-first-webpack-react-app",
+  "name": "react-with-token-based-authentication",
   "version": "0.1.0",
   "description": "This is my first effort to build a React app with Webpack",
   "main": "app/main.js",
@@ -25,6 +25,8 @@
     "webpack-dev-server": "^1.12.0"
   },
   "dependencies": {
-    "react": "^0.13.3"
+    "j-toker": "0.0.6",
+    "react": "^0.13.3",
+    "react-router": "^1.0.0-rc1"
   }
 }

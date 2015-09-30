@@ -16,7 +16,7 @@ config = {
     module: {
       loaders: [{
         test: /\.jsx?$/,
-        loader: 'babel'
+        loader: 'babel?stage=0'
       }, {
         test: /\.css$/, // Only .css files
         loader: 'style!css' // Run both loaders
